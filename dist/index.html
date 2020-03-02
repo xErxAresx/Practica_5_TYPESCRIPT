@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="bundle.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        width: 30%;
+        background-color: rgb(101, 71, 184);
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h3>Escull moneda</h3>
+        <select id="tipusmoneda" name="select"></select>
+        <input type="submit" id="mostrar" name="mostrar" value="Mostra">
+        <p id="1igual"></p><span id="quantitat"></span>
+        <p id="2igual"></p><span id="valor"></span>
+        <p id="nom">Euro</p>
+        <h3>Conversor:</h3>
+        <p id="nommon"></p>
+        <br>
+        <input id="num" type="number" value="0">
+        <label> = <span id="resultat">0</span> Bitcoins</label>
+    </div>
+</body>
+
+</html>
